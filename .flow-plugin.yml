@@ -2,7 +2,7 @@
 name: php_cache
 version: 0.0.1
 language: php
-description: Php cache
+description: "本插件主要缓存依赖包，已有缓存时直接使用缓存，提高构建效率"
 public: true
 tags:
   - php
@@ -11,8 +11,8 @@ inputs:
   - name: FLOW_ENABLE_CACHE
     editable: true
     options:
-      - TRUE
-      - FALSE
+      - TRUE=true
+      - FALSE=false
   - name: FLOW_VERSION
     editable: false
   - name: FLOW_PROJECT_ID
